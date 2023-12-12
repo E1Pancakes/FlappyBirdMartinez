@@ -34,5 +34,6 @@ public class Spaceship : MonoBehaviour
     {
         isDead = true;
         anim.SetTrigger("death");
+        GameControl.instance.BirdDied ();
     }
 }
